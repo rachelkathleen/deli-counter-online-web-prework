@@ -14,8 +14,9 @@ end
 
 def take_a_number(array)
   # array is now an array of ticket numbers, not names
-  
-  puts "Welcome, you are ticket number #{}. You are number #{array.index(name)+1} in line."
+  counter = 0
+  array << counter + 1
+  puts "Welcome, you are ticket number #{counter + 1}. You are number #{array.size} in line."
 end
 
 def now_serving(array)
