@@ -1,5 +1,5 @@
 katz_deli = []
-$ticket = 1
+$ticket = 0
 
 def line(array)
   if array.size > 0
