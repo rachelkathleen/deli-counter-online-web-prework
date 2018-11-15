@@ -18,6 +18,7 @@ def take_a_number(array)
   array.each do |ticket_number|
   array << ticket_number + 1
   puts "Welcome, you are ticket number #{counter + 1}. You are number #{array.size} in line."
+  end
 end
 
 def now_serving(array)
