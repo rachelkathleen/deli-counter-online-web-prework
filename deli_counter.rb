@@ -16,7 +16,8 @@ def take_a_number(array)
   # array is now an array of ticket numbers, not names
   counter = 0
   array.each do |ticket_number|
-  array << ticket_number + 1
+    ticket_number = counter + 1
+  array << ticket_number
   puts "Welcome, you are ticket number #{counter + 1}. You are number #{array.size} in line."
   end
 end
