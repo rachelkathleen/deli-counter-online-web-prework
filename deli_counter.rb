@@ -13,7 +13,8 @@ def line(array)
 end
 
 def take_a_number(array)
-  counter = 0
+  # array is now an array of ticket numbers, not names
+  
   puts "Welcome, you are ticket number #{}. You are number #{array.index(name)+1} in line."
 end
 
