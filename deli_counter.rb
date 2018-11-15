@@ -14,8 +14,9 @@ def line(array)
 end
 
 def take_a_number(array)
+  $ticket = $ticket + 1
   array << array.size + 1
-  puts "Welcome, you are ticket number #{ticket}. You are number #{array.size} in line."
+  puts "Welcome, you are ticket number #{$ticket}. You are number #{array.size} in line."
 end
 
 def now_serving(array)
