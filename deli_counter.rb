@@ -21,12 +21,13 @@ def now_serving(array)
   if array.size == 0
     puts "There is nobody waiting to be served!"
   else
-    puts "Currently serving #{array.first}." 
+    puts "Currently serving #{array.first}."
     array.shift
   end
 end
 
 take_a_number(katz_deli, "Rachel")
+take_a_number(katz_deli, "Bob")
 #Build the now_serving method which should call out (i.e. puts) the next person in line and
 #then remove them from the front. If there is nobody in line, it should call out (puts)
 #that "There is nobody waiting to be served!".
