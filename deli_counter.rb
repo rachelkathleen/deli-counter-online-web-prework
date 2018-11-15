@@ -13,7 +13,7 @@ def line(array)
 end
 
 def take_a_number(array)
-  array << name
+  counter = 0
   puts "Welcome, you are ticket number #{}. You are number #{array.index(name)+1} in line."
 end
 
