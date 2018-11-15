@@ -12,9 +12,9 @@ def line(array)
   end
 end
 
-def take_a_number(array, name)
+def take_a_number(array)
   array << name
-  puts "Welcome, #{name}. You are number #{array.index(name)+1} in line."
+  puts "Welcome, you are ticket number #{}. You are number #{array.index(name)+1} in line."
 end
 
 def now_serving(array)
@@ -26,10 +26,8 @@ def now_serving(array)
   end
 end
 
-now_serving(katz_deli)
-take_a_number(katz_deli, "Rachel")
-now_serving(katz_deli)
-take_a_number(katz_deli, "Bob")
+take_a_number(katz_deli)
+take_a_number(katz_deli)
 #Build the now_serving method which should call out (i.e. puts) the next person in line and
 #then remove them from the front. If there is nobody in line, it should call out (puts)
 #that "There is nobody waiting to be served!".
