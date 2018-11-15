@@ -26,7 +26,9 @@ def now_serving(array)
   end
 end
 
+now_serving(katz_deli)
 take_a_number(katz_deli, "Rachel")
+now_serving(katz_deli)
 take_a_number(katz_deli, "Bob")
 #Build the now_serving method which should call out (i.e. puts) the next person in line and
 #then remove them from the front. If there is nobody in line, it should call out (puts)
